@@ -1,0 +1,1131 @@
+/* 1st */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+/* 2nd */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Mulish;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.pry-color {
+    color: #FF5400;
+}
+
+/* header-section start */
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+#bars,
+label {
+    display: none;
+}
+
+
+label i {
+    font-size: 30px;
+
+}
+
+.menu {
+    margin-left: 400px;
+}
+
+.menu a {
+    color: #424247;
+    font-size: 18px;
+    font-family: Mulish;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.menu-home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.head-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 40px;
+    margin-top: 52px;
+}
+
+
+
+.head-title h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+/* banner section */
+
+.head-banner {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 90%;
+    height: 600px;
+    margin: 40px auto;
+}
+
+.head-banner h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 106px;
+}
+
+.head-banner p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+}
+
+.banner-input {
+    background-color: rgba(255, 255, 255, 0.30);
+    background-size: cover;
+    border-radius: 8px;
+    border: none;
+    margin: 48px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+}
+
+.banner-input input[type="text"] {
+    background-color: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    border: 0;
+    border-radius: 8px;
+    width: 172px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.banner-icon {
+    display: flex;
+    align-items: center;
+    background: url('./Images/icon/icon-a.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    cursor: pointer;
+    background-position-x: 90%;
+
+
+}
+
+
+.btn-banner {
+    background-color: #FF5400;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 0;
+    border-radius: 8px;
+    width: 172px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* header-section end */
+
+
+/* Our Popular Tours start */
+
+.tours {
+    display: flex;
+    margin-top: 104px;
+    justify-content: center;
+    gap: 80px;
+}
+
+.tours-des h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tours-des p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.tours ul {
+    margin-left: 40px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.btn-tours {
+    margin-top: 32px;
+}
+
+/* Our Popular Tours end */
+
+/* Choose Your Destination start */
+
+.Destination {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.Destination-title h2 {
+    margin-bottom: 24px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Destination-title p {
+    margin-bottom: 48px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Destination-img img {
+    width: 100%;
+
+}
+
+
+.Destination-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+
+
+}
+
+.img-text {
+    position: relative;
+
+}
+
+.img-Ma {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+/* Choose Your Destination end */
+
+
+/* Why Choose Us start */
+
+.box-content {
+    text-align: center;
+}
+
+.box-content h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.box-content p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.box-1 {
+    background: rgba(251, 181, 99, 0.05);
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    border-radius: 16px;
+    width: 40%;
+
+}
+
+.box-1 img {
+    padding: 32px 0px 32px 32px;
+}
+
+.box-1 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    padding-bottom: 16px;
+
+
+}
+
+.box-1 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+
+.box-2 {
+    background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    width: 40%;
+
+}
+
+.box-2 img {
+    padding: 32px 0px 32px 32px;
+}
+
+.box-2 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    padding-bottom: 16px;
+
+}
+
+.box-2 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+
+
+.box-3 {
+    background: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    width: 40%;
+
+}
+
+.box-3 img {
+    padding: 32px 0px 32px 32px;
+}
+
+.box-3 h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 32px;
+    padding-bottom: 16px;
+
+}
+
+.box-3 p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+/* Why Choose Us end */
+
+
+/* Deals & Discounts start */
+
+.deal-main {
+    text-align: center;
+
+}
+
+.deal-main h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 100px;
+}
+
+
+.deal-main p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.deal-card {
+    background-image: url("./Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 82%;
+    margin: 24px auto;
+    padding: 5px;
+
+}
+
+.deal-card-box {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 56px 490px;
+    backdrop-filter: blur(2.5px);
+    width: 55%;
+
+}
+
+.deal-card-box-icon,
+.deal-card-box-icon-2 {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 50px 0px 0px 50px;
+}
+
+.deal-card-box-icon i,
+.deal-card-box-icon-2 i {
+    color: #FF5400;
+    padding-right: 8px;
+}
+
+.deal-card-box h2,
+.deal-card-box-2 h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 24px 0px 0px 50px;
+}
+
+.deal-card-box-p1,
+.deal-card-box-p1-2 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px 0px 0px 50px;
+}
+
+.deal-card-box-p2,
+.deal-card-box-p2-2 {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    padding: 16px 0px 0px 50px;
+
+}
+
+.deal-card-box button,
+.deal-card-box-2 button {
+    background: #FF5400;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+    margin: 24px 0px 50px 50px;
+    padding: 14px 24px 13px 25px;
+}
+
+.deal-card-2 {
+    background-image: url("./Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    width: 82%;
+    margin: 0px auto;
+    padding: 5px;
+
+}
+
+.deal-card-box-2 {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    margin: 56px;
+    backdrop-filter: blur(2.5px);
+    width: 55%;
+
+}
+
+/* Deals & Discounts end */
+
+
+/* Newsletter start */
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 100px;
+
+}
+
+
+.newsletter-content {
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    width: 35%;
+
+}
+
+.newsletter-content h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+}
+
+.newsletter-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 40px;
+    padding-bottom: 24px;
+}
+
+
+hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-left: 40px;
+    margin-right: 41px;
+}
+
+.newsletter-form {
+    margin-top: 24px;
+    text-align: center;
+
+}
+
+.newsletter-form input[type="text"],
+input[type="email"] {
+    width: 77%;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    padding: 20px 20px;
+}
+
+.newsletter-form input[type="email"] {
+    margin-top: 16px;
+}
+
+.newsletter-form button {
+    width: 85%;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding: 16px 20px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+
+
+
+}
+
+.newsletter-img {
+    position: relative;
+}
+
+.newsletter-img-text {
+    position: absolute;
+    text-align: center;
+    bottom: 49px;
+    right: 8px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 37%;
+    transform: rotate(-19.628deg);
+    padding: 20px;
+
+
+}
+
+.newsletter-img-text h4 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter-img-text h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+/* Newsletter end */
+
+
+/* footer start */
+
+.footer-main {
+    background-color: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 25px;
+    padding-top: 110px;
+    gap: 16px;
+}
+
+.footer-t {
+    color: #FF5400
+}
+
+.footer-p1 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+    padding-top: 33px;
+    padding-bottom: 50px;
+}
+
+.footer-icon i {
+    color: #131318;
+}
+
+.line {
+
+    width: 55%;
+    margin: 0px auto;
+}
+
+
+.footer-p2 {
+    color: #131318;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 110px;
+}
+
+/* footer end */
+
+@media screen and (max-width:576px) {
+
+
+    .head-title h2 {
+        font-size: 23px;
+        margin-right: 100px;
+    }
+
+    .head-title img {
+        padding-left: 2px;
+    }
+
+
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #FFF;
+    }
+
+    label {
+        display: inline-flex;
+
+
+
+    }
+
+    #bars:checked~.menu {
+        max-height: 100%;
+    }
+
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+    /* banner  start*/
+
+    .head-banner h2 {
+        font-size: 30px;
+        padding-top: 40px;
+
+    }
+
+    .head-banner p {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 8px 16px;
+
+    }
+
+    .banner-input {
+        margin-top: 32px;
+
+    }
+
+
+    .banner-input input[type="text"] {
+        width: 255px;
+        height: 60px;
+    }
+
+    .banner-input .btn-banner {
+        width: 270px;
+        height: 60px;
+    }
+
+    /* banner  end*/
+
+
+    /* Our Popular Tours start */
+
+    .tours {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 25px;
+    }
+
+    .tours-img img {
+        width: 100%;
+    }
+
+    .tours-des h2 {
+        font-size: 20px;
+        
+        
+    }
+    
+    .tours-des p {
+        font-size: 14px;
+    }
+    
+    .tours ul {
+        font-size: 14px;
+        margin-top: 24px;
+    }
+    
+    .btn-tours {
+        font-size:20px;
+    }
+    
+
+    /* Our Popular Tours end */
+
+
+    /* Choose Your Destination start */
+
+    .Destination-title h2 {
+        font-size: 20px;
+    }
+
+    .Destination-title p {
+        font-size: 14px;
+    }
+
+    .Destination-img {
+        flex-direction: column;
+
+    }
+
+    .Destination-img img {
+        width: 90%;
+        height: 200px;
+        border-radius: 16px;
+
+    }
+
+    .img-Ma {
+        font-size: 20px;
+    }
+
+    /* Choose Your Destination end */
+
+
+    /* Why Choose Us start */
+
+    .box-content h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .box-content p {
+        font-size: 14px;
+        width: 80%;
+        margin:16px auto;
+
+    }
+
+
+    .box-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        width: 90%;
+
+    }
+
+    .box-1 h3 {
+        font-size: 20px;
+    }
+
+    .box-1 p {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .box-2 h3 {
+        font-size: 20px;
+    }
+
+    .box-2 p {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    .box-3 h3 {
+        font-size: 20px;
+    }
+
+    .box-3 p {
+        font-size: 14px;
+        padding-right: 5px;
+    }
+
+    /* Why Choose Us end */
+
+
+    /* Deals & Discounts start */
+
+    .deal-main h2 {
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+
+    .deal-main p {
+        font-size: 14px;
+        font-weight: 400;
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 16px;
+    }
+
+    .deal-card {
+        width: 90%;
+        padding-top: 187px;
+        padding-bottom: 25px;
+    }
+
+    .deal-card-box {
+        width: 90%;
+        margin: 0px auto;
+
+    }
+
+
+    .deal-card-2 {
+        width: 90%;
+        padding-top: 187px;
+        padding-bottom: 25px;
+    }
+
+    .deal-card-box-2 {
+        width: 90%;
+        margin: 0px auto;
+
+    }
+
+    .deal-card-box-icon,
+    .deal-card-box-icon-2 {
+
+        flex-wrap: wrap;
+    }
+
+    .deal-card-box h2,
+    .deal-card-box-2 h2 {
+        font-size: 20px;
+        font-weight: 800;
+
+    }
+
+    .deal-card-box-p1,
+    .deal-card-box-p1-2 {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    .deal-card-box-p2,
+    .deal-card-box-p2-2 {
+        font-size: 16px;
+        font-weight: 800;
+
+
+    }
+
+    .deal-card-box button,
+    .deal-card-box-2 button {
+
+        font-size: 18px;
+        font-weight: 700;
+
+    }
+
+    /* Deals & Discounts end */
+
+
+    /* Newsletter start */
+
+    .newsletter {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .newsletter-content {
+        width: 90%;
+    }
+
+    .newsletter-content h3 {
+        font-size: 20px;
+    }
+
+    .newsletter-content p {
+        font-size: 14px;
+    }
+
+
+    .newsletter-form input[type="text"],
+    input[type="email"] {
+        padding: 16px 20px;
+    }
+
+
+    .newsletter-form button {
+        padding: 14px 20px;
+    }
+
+    .newsletter-img {
+        text-align: center;
+
+    }
+
+    .newsletter-img img {
+        width: 90%;
+
+    }
+
+    .newsletter-img-text {
+        width: 35%;
+        position: absolute;
+        bottom: 35px;
+        right: 40px;
+
+    }
+
+    .newsletter-img-text h4 {
+        font-size: 1rem;
+    }
+
+    .newsletter-img-text h3 {
+        font-size: 1.3rem;
+    }
+
+    /* Newsletter end */
+
+
+    /* footer start */
+
+
+    .footer-title {
+        font-size: 20px;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .footer-p1,
+    .footer-p2 {
+        font-size: 14px;
+        width: 80%;
+        margin-left: 50px;
+
+
+
+    }
+
+    /* footer end */
+
+
+
+
+
+
+
+}
